@@ -6,23 +6,14 @@
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-}  
-.roboto-serif-uniquifier> {
-    font-family: "Roboto Serif", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100,
-      "GRAD" 0;
-  }
+}
 
 .container{
- 
+
 }
 .topo1{
     display: flex;
-    
+
     align-items: center;
     padding-left: 600px;
     gap: 15px;
@@ -32,19 +23,19 @@
     color: white;
     font-size: 14px;
     font-weight: 300;
- 
+
     background-color: #033198;
 }
 .imgtel,.msg{
     width: 16px;
 }
 .tel{
-    
+
 }
 
 .logo{
     width: 50px;
-    
+
     margin-top: 9px;
     background-color: #033198;
 }
@@ -64,41 +55,41 @@
     justify-content: center;
     align-items: center;
     font-family: monte;
-   
-    
+
+
     /* background-color: #033198; */
-   
+
 }
 li{
- 
+
     /* background-color: aliceblue; */
     display: inline-block;
     border-radius: 10px;
     font-size: 16px;
-    
-    
+
+
 }
 li a{
     color:#033198;
     text-decoration: none;
      margin:0px 10px;
      font-weight: 500;
-    
-    
+
+
 }
 
 li a:hover{
     transition: 1s;
     color:black;
    }
-    
+
 
 .imgtopo2{
     width: 100%;
     height:auto;
 }
 .conteudo{
-    
+
     display: flex;
     justify-content: center;
     /* background: #4d4848; */
@@ -112,7 +103,7 @@ li a:hover{
 }
 .conteudo2{
    display: flex;
-   
+
    gap: 30px;
    /* background-color: #033198; */
 }
@@ -124,17 +115,18 @@ li a:hover{
 .img2{
     width: 20%;
     /* background-color: #4c6bad; */
-    
+
 }
 .img6{
     width: 750px;
      border-radius: 50px 70px 20px 10px;
-    
+
 }
 .imgconteudo{
     width: 389.39px;
-    height: 220px;
+    height: 210px;
     text-align: center;
+    border-radius: 9px 9px 0px 0px;
 }
 .h2{
     width: 329px;
@@ -151,7 +143,13 @@ h3{
     font-size: 28px;
     text-align: center;
 }
-
+.servico{
+    color: #4c6bad;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+}
 .ap{
     width: 352px;
     height: 356px;
@@ -160,29 +158,33 @@ h3{
     margin: 10px;
     padding: 25px;
     background-color: #fff;
-    border-width: 0.1px; 
-    border-style: solid;
-    border-color:  blue;
+    border-width: 0.1px;
+    /* border-style: solid; */
+    /* border-color:  blue; */
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
 
 }
 
 .cont3{
-    
+
         width: 352px;
         height: 356px;
-        
+
         border-radius: 7px;
         margin: 10px;
         padding: 25px;
         background-color: #fff;
-        border-width: 0.1px; 
+        border-width: 0.1px;
         border-style: solid;
-        border-color:  white;
-    
-    
+        border-color:  #ffffff;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+
+
 }
 .paragrafo{
-    
+
     height: 120px;
     font-size: 16px;
     color:#4d4848;
@@ -203,13 +205,13 @@ h3{
     color: #252525;
     font-size: 17px;
     font-weight: 600;
-    
+
     /* background-color: red; */
 }
 .texto3{
     width: 50%;
     height: 72px;
-    
+
     text-align: center;
     margin: 15px auto;
     font-size: 18px;
@@ -218,26 +220,32 @@ h3{
     /* background-color: #033198; */
 }
 .texto4{
-    text-align: center;
-    
+
+    color: #55595C;
     height: 27.59px;
     font-size: 23px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* background-color: #252525; */
+    font-family: "Roboto",sans-serif;
+
+    font-weight: 900;
+
+
     text-align: center;
-    margin-top: 20px;
-    
+    margin-top: 9px;
+    /* background-color: #252525; */
+
+
 }
 .texto5{
-    
-    height: 96px;
+
+    height: 130px;
     font-size: 16px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #55595C;
     text-align: center;
     /* background-color: aquamarine; */
-    margin-top: 50px;
-    font-weight: 600;
+    margin-top: 29px;
+    font-weight: 450;
+   
 }
 .icone{
     text-align: center;
@@ -254,18 +262,88 @@ h3{
     font-size: 16px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 10px;
-    
-    
+
+
     /* background-color: red; */
 }
 .nossosservicos1{
+
     width: 389.39px;
     height: 506;
     text-align: center;
     /* background-color: #033198; */
+    border-radius: 9px;
+    background-color: #f7f7f7;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
 }
 .servico1{
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     gap: 30px;
+}
+
+.especialista{
+    width: 90%;
+    height: 150px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#333333;
+    background: #033798;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto 50px;
+
+}
+.especialista1{
+    width: 651.45px;
+    height: 75px;
+    color: #333333;
+    font-size:16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+    
+   /* background-color: green; */
+}
+.textoespecialista{
+    width: 931.45px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Montserrat",sans-serif;
+}
+.textoespecialista2{
+    width: 931.45px;
+    height: 28px;
+    font-size: 20px;
+    font-family: "Monstserrat",sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.btn{
+    width: 664px;
+    height: 63px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    text-align: right;
+    
+
+    
+}
+
+.btn1{
+    color: #ffffff;
+    font-size: 13px;
+    font-family: "Monstserrat", sans-serif;
+    padding: 15px 20px;
+    background: red;
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    cursor: pointer;
 }
