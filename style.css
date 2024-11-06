@@ -106,10 +106,11 @@ li a:hover{
     
 }
 .conteudo2{
-    width:60%;
+    width:75%;
+    height: auto;
     display: flex;
     justify-content: center;
-
+    
    
    /* background-color: #033198; */
 }
@@ -138,7 +139,7 @@ li a:hover{
 }
 .h2{
     width: 50%;
-    height: 500px;
+    height: auto;
 
     /* background-color: greenyellow; */
     
@@ -163,7 +164,7 @@ h3{
 }
 .ap{
     width: 352px;
-    height: 356px;
+    height: 300px;
     border-top-left-radius: 10px;
     border-radius: 7px;
     margin: 10px;
@@ -174,27 +175,26 @@ h3{
     /* border-color:  blue; */
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
-    border-radius: 35px;
+    
     background-size: cover;
 
 }
-.ap1{
-    border-radius: 35px;
-    background-size: cover;
+.conteudo{
+    
     cursor: pointer;
 }
 
-.ap .ap1:hover {
+.conteudo .ap:hover {
     scale: 1.1;
     transition: .5s;
 }
-.ap .ap1::before {
+.ap1 .icone::before {
     content: '';
     position: absolute;
     width: 5%;
     height: 5%;
     background: inherit;
-    border-radius: 35px;
+    border-radius: 5px;
     background-size: cover;
     filter: blur(25px);
     opacity: 0.5;
@@ -202,7 +202,7 @@ h3{
     transition: .1s;
 }
 
-.ap .ap1:hover::before {
+.ap1 .icone:hover::before {
     opacity: 0;
     transition: .1s;
 }
@@ -235,9 +235,11 @@ h3{
     cursor: pointer;
 }
 
-.cont3 .ap1:hover {
+.conteudo3 .cont3:hover {
     scale: 1.1;
     transition: .5s;
+    border-color: #033798;
+    
 }
 .cont3 .ap1::before {
     content: '';
@@ -245,7 +247,7 @@ h3{
     width: 5%;
     height: 5%;
     background: inherit;
-    border-radius: 35px;
+
     background-size: cover;
     filter: blur(25px);
     opacity: 0.5;
@@ -256,6 +258,7 @@ h3{
 .cont3 .ap1:hover::before {
     opacity: 0;
     transition: .1s;
+    
 }
 .paragrafo{
 
@@ -272,10 +275,10 @@ h3{
     /* background-color: #033198; */
 }
 .texto2{
-    width: 70%;
-    height: 400px;
+    
+    height: auto;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+  
     color: #252525;
     font-size: 17px;
     font-weight: 500;
@@ -360,11 +363,11 @@ h3{
 
 
 
-.servico1 .nossosservicos1:hover {
-    scale: 1.1;
+.nossosservicos1 .imgconteudo:hover {
+    scale: .9;
     transition: .5s;
 }
-.servico1 .nossosservicos1::beforeag {
+.servico1 .nossosservicos1::before {
     content: '';
     position: absolute;
     
@@ -596,12 +599,12 @@ h3{
 .rodape{
     width: 100%;
     height: 80px;
-    background-color: #033198;
+    background-color: #2b62da;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    bac
+    
 
 }
 
