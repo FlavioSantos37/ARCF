@@ -110,10 +110,24 @@ li a:hover{
     height: auto;
     display: flex;
     justify-content: center;
-    
+  
+  
+
    
    /* background-color: #033198; */
 }
+
+.conteudo2::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("./img/img6.jpg");
+    background-size: cover;
+    background-position:bottom;
+    z-index: -1;
+    opacity: 0.3;
+    
+  }
 .conteudo3{
     display: flex;
     justify-content: center;
