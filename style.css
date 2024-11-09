@@ -8,9 +8,7 @@
     font-style: normal;
 }
 
-.container{
 
-}
 .topo1{
     display: flex;
 
@@ -30,9 +28,7 @@
     width: 16px;
     margin-left: 20px;
 }
-.tel{
 
-}
 
 .logo{
     width: 50px;
@@ -117,7 +113,7 @@ li a:hover{
    /* background-color: #033198; */
 }
 
-.conteudo2::before {
+/* .conteudo2::before {
     content: "";
     position: fixed;
     inset: 0;
@@ -127,7 +123,7 @@ li a:hover{
     z-index: -1;
     opacity: 0.3;
     
-  }
+  } */
 .conteudo3{
     display: flex;
     justify-content: center;
@@ -610,6 +606,10 @@ h3{
     color: white;
 }
 
+.btn-enviar:disabled{
+        cursor:not-allowed;
+        background: #555;
+}
 .rodape{
     width: 100%;
     height: 80px;

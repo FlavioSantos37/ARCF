@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
-
+    <script defer src="app.js"></script>
    
     <title>ACF Ar condicionado</title>
 </head>
@@ -269,18 +269,19 @@
             </p>
         </div>
 
-        <div class="formulario">
-            <div class="formulario1">
+        <div action ="https://formsubmit.co/ajax/flaviooperacional18@gmail.com" method="POST" data-form class="formulario">
+            
+            <div  class="formulario1">
                 <div class="form">
                     
-                    <input class="input" type="text" placeholder="Nome"> 
-                    <input class="input" type="text" placeholder="Telefone">
+                    <input class="input" name="nome" id="nome" type="text" placeholder="Nome"> 
+                    <input class="input" name="tel" id="tel" type="text"  placeholder="Telefone">
                     
                     
                 </div>
                 <div class="form2">
                     <input class="input" type="text" placeholder="E-mail">
-                    <input class="input" type="text" placeholder="Assunto">
+                    <input class="input" name="email" id="email" type="text" placeholder="Assunto">
                     
 
                 </div>
@@ -288,10 +289,10 @@
             </div>
              <div class="textarea-enviar">
                 <div class="msgm">
-                    <textarea class="msg1" name="msg" id=""></textarea>
+                    <textarea class="msg1" name="msg" id="mensagem" required></textarea>
                 </div>
                 <div class="botao">
-                    <button class="btn-enviar"  type="button">Enviar</button>
+                    <button  class="btn-enviar" type="submit"data-button>Enviar</button>
                 </div>
 
              </div>
