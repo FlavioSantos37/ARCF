@@ -63,3 +63,11 @@ class FormSubmit {
     error: "<h1 class='error'>Não foi possível enviar sua mensagem.</h1>",
   });
   formSubmit.init();
+
+  var $doc = $('html, body');
+  $('.suave').click(function() {
+    $doc.animate({
+        scrollTop:$($.attr(this,'href')).offset().top
+    }, 500);        
+    return false;
+});

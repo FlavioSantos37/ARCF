@@ -471,10 +471,20 @@ h3{
     justify-content: center;
     align-items: center;
     
+    
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 800;
+}
+.btn1 a:visited{
+    color: #ffffff;
 }
 .zap{
-    width: 30px;
-    height:30px;
+    width: 50px;
+    height:50px;
     margin: 5px;
    
 }
