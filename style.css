@@ -632,3 +632,93 @@ h3{
 
 }
 
+@media screen and ( max-width:999px){
+    .container{
+      width: 100%;
+      height: auto;
+      display: block;
+      
+    }
+    .topo1{
+    display: none;
+    }
+
+    .menu{
+    display: none;
+    }
+    .conteudo{
+        display: block;
+        text-align: center;
+        /* background-color: red; */
+    }
+
+    .conteudo1{
+        /* background-color: pink; */
+        height: auto;
+        
+    }
+    .conteudo2{
+        display: block;
+        width: 90%;
+       /* background-color: #4c6bad; */
+    
+        
+        
+    }
+    .conteudo3{
+        display: block;
+        
+    }
+    h2{
+        text-align: center;
+    }
+    .h2{
+        /* background-color: #033198; */
+        width: 100%;
+        text-align: center;
+        
+        
+    }
+    
+    .texto2{
+        /* background-color: green; */
+      
+        
+    }
+    .img2{
+        width: 100%;
+    }
+    .img6{
+        /* display: none; */
+        width: 100%;
+        height: 250px;
+        border-radius: 5px;
+    }
+    .texto3{
+        height: auto;
+        
+    }
+    .especialista ,.especialista1{
+        display: block;
+        /* background-color: lawngreen; */
+        width: 100%;
+    }
+    
+    .textoespecialista,.textoespecialista2{
+        text-align: center;
+    }
+    .faleconosco{
+        text-align: center;
+        /* background-color: red; */
+    }
+    .textoespecialista{
+        text-align: center;
+    }
+    .btn{
+        width: 100%;
+        margin-top: 15px;
+        text-align: center;
+        
+    }
+    
+}
