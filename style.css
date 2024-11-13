@@ -511,7 +511,7 @@ h3{
 }
 .formulario{
     width:60%;
-    height:410px;
+    height:auto;
     text-align: center;
     margin:0px auto;
     /* background-color: rgb(10, 54, 18); */
@@ -576,17 +576,18 @@ h3{
     margin: -7px auto;
     /* background-color: rgb(226, 95, 43); */
     display:block;
-    justify-content: center;
+   
 
 
     
 }
 .msgm{
+    width: 100%;
     margin-top: 15px;
     /* background-color: pink; */
 }
 .msg1{
-    width: 95%;
+    width:100%;
     height: 150px;
     /* background-color: #033198; */
         margin: 0px auto;
@@ -636,7 +637,7 @@ h3{
     .container{
       width: 100%;
       height: auto;
-      display: block;
+      /* background-color: red; */
       
     }
     .topo1{
@@ -646,15 +647,33 @@ h3{
     .menu{
     display: none;
     }
+    .banner2{
+        display: none;
+    }
+    .nomeempresa{
+        display: none;
+    }
     .conteudo{
         display: block;
         text-align: center;
         /* background-color: red; */
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+    }
+    .ap,.cont3{
+        /* background-color: gold; */
+        display: flex;
+        margin: 0px auto 10px ;
+        width: 90%;
+        height: auto;
+        
     }
 
     .conteudo1{
         /* background-color: pink; */
         height: auto;
+        
         
     }
     .conteudo2{
@@ -679,13 +698,32 @@ h3{
         
         
     }
+    .ap1{
+        /* background-color: violet; */
+        width: 100vw;
+    }
+    .texto {
+      
+        /* background-color: #033198; */
+        width: 80%;
+        margin: 5px auto;
+        height: auto;
+        font-size: large;
+        font-weight: 600;
+
+        
+        
+    }
+   
     
     .texto2{
         /* background-color: green; */
+        
       
         
     }
     .img2{
+        display: none;
         width: 100%;
     }
     .img6{
@@ -708,11 +746,62 @@ h3{
         text-align: center;
     }
     .faleconosco{
-        text-align: center;
+        height: auto;
         /* background-color: red; */
+        width: 100%;
+        padding-bottom: 5px;
+    
+        
+    }
+
+    .formulario{
+        width: 100%;
+        height: auto;
+        /* background-color: #033198; */
+    }
+    .formulario1{
+        display: block;
+        height: auto;
+        
+    }
+    .form2{
+        /* background-color: #033198; */
+        margin-top: -25px;
+        
+    }
+    .textofaleconosco{
+        /* background-color: red; */
+        height: auto;
+        width: 100%;
+    }
+    .msgm{
+        /* background-color: green; */
+        height:auto;
+        display: flex;
+        width: 100%;
+        
+        margin-top: -113px;
+    }
+    .msg1{
+        /* background-color: #8e9197; */
+        margin: 2px;
+        height: 150px;
+        width: 100%;
+        
+         
     }
     .textoespecialista{
         text-align: center;
+    }
+    .textarea-enviar{
+        /* background-color: rgb(70, 22, 59); */
+        height: 200px;
+        width: 80%;
+        margin-bottom: 10px;
+        margin-top:120px;
+        
+        
+        
     }
     .btn{
         width: 100%;
@@ -720,5 +809,8 @@ h3{
         text-align: center;
         
     }
-    
+    .rodape{
+        text-align: center;
+    }
+  
 }
