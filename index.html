@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,12 +26,13 @@
                 <p class="tel">(11) 982957353</p>
                 <img class="msg" src="./img/msg.png">
                 <p class="email"> acfarcondicionado@gmail.com </p:>
+                    <button class="close-btn" onclick="toggleMenu()">×</button>
             </div>
             <div class="topo2">
                 <img class="logo" src="./img/are.jpg">
                 <p class="nomeempresa">ACF Ar-Condicionado Instalação e Manuntenção.</p>
-                <div class="menu">
-                    
+                <div class="menu" id="sidebar">
+                   
                     <ul>
                         <li><a href="#home" class="suave">Inicio</a></li>
                         <li><a href="#nossosservicos" class="suave">Nossos Serviços</a></li>
@@ -40,6 +42,11 @@
                     </ul>
 
                 </div>
+                
+  <div class="main-content">
+    <button class="open-btn" onclick="toggleMenu()">☰</button>
+    
+  </div>
         </head>
 
 
@@ -311,7 +318,7 @@
 </body>
 <div class="rodape">
     <p class="rp">© 2024 ACF Ar-Condicionado Instalação e Manuntenção. Todos os direitos reservados - Desenvolvedor - Web</p>           
-
+    <script src="script.js"></script>
   
 </div>
 </html>
