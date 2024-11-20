@@ -21,6 +21,7 @@
 
         <head>
             <div id="home" class="topo1">
+                <button class="open-btn" onclick="toggleMenu()">☰</button>
                 <img class="imgtel" src="./img/tel.png">
                 <p class="tel">(11) 982957353</p>
                 <img class="msg" src="./img/msg.png">
@@ -29,9 +30,11 @@
             <div class="topo2">
                 <img class="logo" src="./img/are.jpg">
                 <p class="nomeempresa">ACF Ar-Condicionado Instalação e Manuntenção.</p>
-                <div class="menu">
-                    
+                  
+                <div  id="menu" class="sidebar">
+                  
                     <ul>
+                        <button class="close-btn" onclick="toggleMenu()">×</button>
                         <li><a href="#home" class="suave">Inicio</a></li>
                         <li><a href="#nossosservicos" class="suave">Nossos Serviços</a></li>
                         <li><a href="#quemsomos" class="suave">Quem Somos</a></li>
