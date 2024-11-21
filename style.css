@@ -24,6 +24,12 @@
 
     background-color: #033198;
 }
+.logo-nome-empresa{
+    display:flex;
+   
+    align-items: center;
+
+}
 
 .imgtel,
 .msg {
@@ -34,8 +40,10 @@
 
 .logo {
     width: 50px;
-
-    margin-top: 9px;
+    display: flex;
+    align-items: center;
+    
+    
     background-color: #033198;
 }
 
@@ -708,10 +716,15 @@ h3 {
 }
 
 @media screen and (max-width:999px) {
+   *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   }
     .container {
-        width: 100%;
+        max-width:100%;
         height: auto;
-
+      
         /* background-color: red; */
 
     }
@@ -720,29 +733,21 @@ h3 {
         /* display: none; */
         position: fixed;
         margin-top: -20px;
-
+        
+        
 
 
 
     }
 
-    .imgtel,
-    .tel,
-    .email,
-    .msg,
-    .imgtel,
-    .logo {
-        display: none;
-    }
+ 
 
-    .menu {
-        display: none;
-    }
+    
 
     .sidebar {
 
         height: 100%;
-        width: 0%;
+        width: 0;
         position: fixed;
         top: 0;
         left: 0;
@@ -750,25 +755,38 @@ h3 {
         background-color: #033198;
         overflow-x: hidden;
         transition: 0.3s;
+        text-align: left;
+    
 
 
 
 
 
     }
-
+   
+    li{
+        width: 100%;
+    }
     .sidebar a {
-        padding: 10px 15px;
+        
+        padding: 20px 3px;
         text-decoration: none;
         font-size: 18px;
         color: white;
         display: block;
         transition: 0.3s;
+        
+        
 
     }
 
     .sidebar a:hover {
-        background-color: rgb(105, 43, 43);
+        background-color:white;
+        width: 100%;
+        color:#033198;
+        padding-left: 10px;
+        margin-top:15px;
+        
 
     }
 
@@ -817,17 +835,18 @@ h3 {
 
 
     .banner2 {
-        display: none;
+        /* display: none; */
     }
 
-    .nomeempresa {
-        display: none;
+    .logo-nome-empresa{
+        margin-top: 50px;
+        gap: 10px;
     }
 
     .conteudo {
         display: block;
         text-align: center;
-        /* background-color: red; */
+        /* background-color: rgb(163, 25, 94); */
         padding-top: 15px;
         padding-bottom: 15px;
 
@@ -838,7 +857,7 @@ h3 {
         /* background-color: gold; */
         display: flex;
         margin: 0px auto 10px;
-        width: 90%;
+        width: 100%;
         height: auto;
 
     }
@@ -871,6 +890,7 @@ h3 {
 
     .conteudo3 {
         display: block;
+        
 
 
     }
@@ -906,16 +926,19 @@ h3 {
     }
 
 
-    .texto2 {
-        /* background-color: green; */
-
-
-
-    }
 
     .conteudo .ap:hover {
         scale: 1;
 
+    }
+
+    .nossosservicos1{
+        /* background-color: #033198; */
+        width: 100%;
+    }
+    .imgconteudo{
+       max-width: 100%;
+        margin: 0px auto;
     }
 
     .ap1 .icone::before {
@@ -954,10 +977,15 @@ h3 {
         display: block;
         /* background-color: lawngreen; */
         width: 100%;
+
     }
 
-    .textoespecialista,
+    .textoespecialista{
+        font-size:x-large;
+        
+    }
     .textoespecialista2 {
+        
         text-align: center;
     }
 
@@ -1020,7 +1048,7 @@ h3 {
        overflow: wrap 100px; 
        
     
-        background-color: #851e1e;
+        /* background-color: #851e1e; */
     }
     .textarea-enviar {
         /* background-color: rgb(70, 22, 59); */
