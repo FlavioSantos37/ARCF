@@ -766,7 +766,9 @@ h3 {
 
  
 
-    
+     .msg.email.{
+        display: none;
+     }   
 
     .sidebar {
 
