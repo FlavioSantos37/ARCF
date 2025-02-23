@@ -30,13 +30,25 @@
     align-items: center;
 
 }
-
+.nomeempresa{
+    
+    color: #033198;
+    font-weight: 500;
+}
+.whatstopo a{
+    text-decoration: none;
+    color: #ffffff;
+}
 .imgtel,
 .msg {
     width: 16px;
     margin-left: 20px;
 }
 
+.tel a{
+    text-decoration: none;
+    color: #fff;
+}
 
 .logo {
     width: 50px;
@@ -702,7 +714,19 @@ h3 {
     cursor: not-allowed;
     background: #555;
 }
+.whats {
+    text-decoration: none;
+    color: #ffffff;
+  }
+.whats:hover{
+     color: #000000; 
 
+        transition: 0.5s;
+        
+        opacity: 0.7;
+        
+        
+}
 .rodape {
     width: 100%;
     height: 80px;
@@ -1067,10 +1091,11 @@ h3 {
         text-align: center;
 
     }
-
+ 
+ 
     .rodape {
         width: 100%;
-
+      
         text-align: center;
     }
 
