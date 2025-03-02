@@ -714,11 +714,11 @@ h3 {
     cursor: not-allowed;
     background: #555;
 }
-.whats {
+.fvo {
     text-decoration: none;
     color: #ffffff;
   }
-.whats:hover{
+.fvo:hover{
      color: #000000; 
 
         transition: 0.5s;
