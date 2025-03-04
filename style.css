@@ -149,14 +149,35 @@ li a:hover {
 
 .conteudo2 {
     width: 75%;
-    height: auto;
+    height:auto;
     display: flex;
     justify-content: center;
+    /* background-color: red; */
 
 
 
 
     /* background-color: #033198; */
+}
+
+.fabricantes{
+    width: 100%;
+    
+    /* background-color: #000000; */
+    
+}
+.fabricanteimg img{
+  /* background-color: #2b62da; */
+    width: 90%;
+    height: 80%;
+ 
+  
+}
+.logofabricantes{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding-top: 2px;
 }
 
 /* .conteudo2::before {
